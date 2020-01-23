@@ -15,14 +15,14 @@ namespace Bryza_2301.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Nic o nas, bez nas!.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Ośrodek wypoczynkowy BRYZA.";
 
             return View();
         }
